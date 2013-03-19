@@ -1,0 +1,6 @@
+node_modules
+lib/zsock_async_binding.node
+src/binding/mapfile_node
+src/binding/v8plus_errno.c
+src/binding/v8plus_errno.h
+src/zsocket/zsocket
