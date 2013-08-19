@@ -1,10 +1,12 @@
 {
-	"name":		"zsock-async",
-	"version":	"0.0.1",
-	"description":	"open Unix Doman Sockets inside illumos zones",
-	"author":	"Joyent (joyent.com)",
-	"engines":	{ "node": ">=0.8" },
-	"main":		"./lib/zsock_async.js",
+	"name": "zsock-async",
+	"version": "0.0.1",
+	"description": "open Unix Doman Sockets inside illumos zones",
+	"author": "Joyent (joyent.com)",
+	"engines": {
+		"node": ">=0.8"
+	},
+	"main": "./lib/zsock_async.js",
 	"dependencies": {
 		"v8plus": "0.0.6"
 	},
@@ -14,5 +16,10 @@
 	},
 	"scripts": {
 		"postinstall": "gmake $(eval echo ${MAKE_OVERRIDES}) binding"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/davepacheco/node-zsock-async.git"
 	}
 }
