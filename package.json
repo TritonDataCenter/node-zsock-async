@@ -1,6 +1,6 @@
 {
 	"name": "zsock-async",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "open Unix Doman Sockets inside illumos zones",
 	"author": "Joyent (joyent.com)",
 	"engines": {
@@ -8,7 +8,7 @@
 	},
 	"main": "./lib/zsock_async.js",
 	"dependencies": {
-		"v8plus": "0.0.6"
+		"v8plus": "0.2.1"
 	},
 	"devDependencies": {
 		"bunyan": "*",
