@@ -1,6 +1,6 @@
 {
 	"name": "zsock-async",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "open Unix Doman Sockets inside illumos zones",
 	"author": "Joyent (joyent.com)",
 	"engines": {
